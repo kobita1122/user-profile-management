@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Profile Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>User Profile</h1>
+
+<div class="profile">
+  <label>Name</label>
+  <input id="name" value="John Doe">
+
+  <label>Email</label>
+  <input id="email" value="john@example.com">
+
+  <label>Role</label>
+  <select id="role">
+    <option>Admin</option>
+    <option>Manager</option>
+    <option>User</option>
+  </select>
+
+  <button onclick="save()">Save Profile</button>
+  <p id="msg"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

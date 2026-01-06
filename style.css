@@ -1,0 +1,37 @@
+body {
+  background: #020617;
+  color: #e5e7eb;
+  font-family: Arial;
+  padding: 40px;
+}
+
+.profile {
+  max-width: 400px;
+  margin: auto;
+  background: #0f172a;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  background: #22c55e;
+  cursor: pointer;
+}
+
+#msg {
+  margin-top: 10px;
+}
